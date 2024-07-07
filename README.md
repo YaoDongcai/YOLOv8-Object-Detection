@@ -8,7 +8,7 @@ This repository supply a user-friendly interactive interface for [YOLOv8](https:
 - Feature4: Multiple Object Tracking and Counting.
 
 ## Run online
-You can use [This]((https://yolov8-object-detection-a8pktamdkdeetfve67ruwr.streamlit.app/)) link to try an online version on Streamlit.   
+You can use [This](https://yolov8-object-detection-a8pktamdkdeetfve67ruwr.streamlit.app/) link to try an online version on Streamlit.   
 
 ## Installation
 ### Create a virtual environment
@@ -38,5 +38,5 @@ streamlit run app.py
 
 ## Result
 
-![alt text](Images/image1d.jpg "YOLOv8 Object Detection")
+![alt text](Image/image1d.jpg "YOLOv8 Object Detection")
   
