@@ -32,7 +32,7 @@ confidence = float(st.sidebar.slider(
 
 
 if model_type == 'Object Detection':
-    model_path = Path('..\model\yolov8n.pt')
+    model_path = Path('model/yolov8n.pt')
 
 
 # Load Pre-trained ML Model
@@ -51,7 +51,7 @@ col1, col2 = st.columns(2)
 with col1:
     try:
         if source_img is None:
-            default_image_path = str('..\Image\image1.jpg')
+            default_image_path = str('Image/image1.jpg')
             default_image = PIL.Image.open(default_image_path)
             st.image(default_image_path, caption="Default Image",
                         use_column_width=True)
@@ -66,7 +66,7 @@ with col1:
 with col2:
     if source_img is None:
         
-        default_detected_image_path = str('..\Image\image1d.jpg')
+        default_detected_image_path = str('Image/image1d.jpg')
         default_detected_image = PIL.Image.open(
             default_detected_image_path)
         st.image(default_detected_image_path, caption='Detected Image',
