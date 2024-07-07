@@ -41,7 +41,7 @@ streamlit run app.py
 
 ## Result
 
-![alt text](Image/image1d.jpg "YOLOv8 Object Detection")
+![alt text](Image/Image2d.jpg "YOLOv8 Object Detection")
 
 ## Applications
 YOLOv8 can be used in a variety of applications, including but not limited to:
